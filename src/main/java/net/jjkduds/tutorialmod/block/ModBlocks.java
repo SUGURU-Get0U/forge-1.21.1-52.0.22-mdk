@@ -26,6 +26,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> CursedIron_Ore = registerBlock("cursediron_ore",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK).sound(SoundType.NETHERITE_BLOCK)));
 
+    public static final RegistryObject<Block> RAW_CURSED_IRON_BLOCK = registerBlock("raw_cursed_iron_block",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.RAW_IRON_BLOCK).sound(SoundType.CANDLE)));
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         //the first line registries the block

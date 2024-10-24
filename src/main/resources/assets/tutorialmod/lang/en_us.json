@@ -2,6 +2,10 @@
   "item.tutorialmod.cursediron": "Cursed ingot",
   "item.tutorialmod.raw_cursed_ore": "Raw cursed ore",
 
+  "block.tutorialmod.cursediron_ore": "Cursed iron block",
+  "block.tutorialmod.raw_cursed_iron_block": "Raw cursed iron block",
+
   "creativetab.tutorial_tab": "Cursed elements Tab"
+
 
 }

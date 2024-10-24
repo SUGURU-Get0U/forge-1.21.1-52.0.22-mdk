@@ -1,6 +1,7 @@
 package net.jjkduds.tutorialmod.item;
 
 import net.jjkduds.tutorialmod.JujutsuMod;
+import net.jjkduds.tutorialmod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -19,6 +20,9 @@ public class ModCreativeModTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.Cursed_iron.get());
                         output.accept(ModItems.Raw_cursed_ore.get());
+
+                        output.accept(ModBlocks.CursedIron_Ore.get());
+                        output.accept(ModBlocks.RAW_CURSED_IRON_BLOCK.get());
                     })
                     .build());
 
